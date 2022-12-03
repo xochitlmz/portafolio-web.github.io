@@ -1,0 +1,59 @@
+.lista-encabezado{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  
+}
+li{
+    padding: 5px;
+}
+.img-google{
+    width: 350px;
+    height: 100px;
+
+}
+.contenedor-imagen{
+    text-align: center;
+    margin-top: 50px;
+}
+.contenedor-input{
+    text-align: center;
+   
+}
+.input-buscador{
+    width: 500px ;
+    height: 30px;
+}
+.contenedor-botones{
+    text-align: center;
+    margin-top: 20px;
+}
+.button-google{
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+    background-color: rgb(211, 211, 211);
+    border: 0;
+}
+.pie-de-pagina1{
+    list-style: none;
+    display: flex;
+  
+}
+.pie-de-pagina2{
+    list-style: none;
+    display: flex;
+    
+}
+footer{
+    background-color: rgb(177, 174, 171);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+
+}
+
+

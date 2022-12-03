@@ -1,0 +1,88 @@
+body{
+    background-color: antiquewhite;
+}
+.logo{
+    width: 80px;
+    height: 60px;
+}
+.halo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.seccion-precentacion{
+    text-align: center;
+    margin-top: 25px;
+}
+.imagen-pagina-web{
+    width: 400px;
+    height: 350px;
+    border-radius: 50px;
+}
+.imagen-web{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.texto-h{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    height: 500px;
+    /* alinear al centro verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* alinear al centro orizontalmente */
+    text-align: center;
+}
+.sub-titulo{
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 25px;
+}
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+    
+}
+.contenedor-experiencia{
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid rgb(7, 7, 7); 
+}
+.columna{
+    border: 2px solid rgb(7, 7, 7);
+    padding: 20px;
+}
+.columna:hover{
+    background-color: aquamarine;
+    color: rgb(236, 110, 110);
+    transition: all 0.2s ease;
+}
+.bi{
+    font-size: 100px;
+    background-color: black;
+    padding: 8px 19px;
+    border-radius: 50%;
+    color: rgb(200, 209, 209);
+    
+}
+.seccion-proyectos{
+    text-align: center;
+}
+.pie-pagina{
+    text-align: center;
+}
+.seccion-articulos{
+    /* alinear al centro verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* alinear al centro orizontalmente */
+    text-align: center;
+    margin: 50px;
+}
